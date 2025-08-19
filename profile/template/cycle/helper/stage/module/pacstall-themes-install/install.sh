@@ -81,6 +81,8 @@ sys_pacstall_install_packages () {
 
 local run_cmd=$(cat << __EOF__
 	pacstall -QPINs
+		bean-resource-kde-plasma-layout-templates
+
 		bean-appearance-citrus-icon-theme
 		bean-appearance-layan-gtk-theme
 		bean-appearance-layan-kde-theme
